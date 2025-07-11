@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instalación LMDE 6 Cinnamon + Soporte</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f3f4f6;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #2ecc71;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .video-container {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .content h2 {
+      color: #27ae60;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      margin-bottom: 1.2em;
+    }
+
+    .highlight {
+      background: #dff6e0;
+      border-left: 5px solid #27ae60;
+      padding: 10px 15px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #27ae60;
+      color: white;
+      padding: 18px 30px;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #219150;
+    }
+
+    .urgencia {
+      background: #ffefef;
+      border: 1px solid #e74c3c;
+      color: #c0392b;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 30px auto;
+      max-width: 600px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+      iframe {
+        height: 200px;
+      }
+
+      .cta-button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Dale nueva vida a tu PC con LMDE 6 Cinnamon</h1>
+    <p>Instalación + soporte técnico personalizado incluido</p>
+  </header>
+
+  <section class="video-container">
+    <iframe src="https://youtu.be/NXKdi1iYPoA?si=pAfp2li0nkHT2Ss5" allowfullscreen></iframe>
+  </section>
+
+  <section class="content">
+    <div class="highlight">
+      ✅ ¿Tu PC está lenta, se traba o llena de virus? Esto puede cambiar HOY.
+    </div>
+
+    <h2>Te instalo LMDE 6 Cinnamon de forma remota y segura</h2>
+    <p>¿Estás cansado de los errores de Windows? ¿Te gustaría tener un sistema libre, rápido y sin virus? LMDE 6 Cinnamon es tu solución. Y lo mejor: ¡yo lo hago por ti!</p>
+
+    <p>Con este servicio obtendrás:</p>
+    <ul>
+      <li>🛠️ Instalación personalizada y optimizada</li>
+      <li>🧑‍💻 Soporte técnico post-instalación (30 días)</li>
+      <li>🎓 Guía de uso paso a paso</li>
+      <li>📦 Todo listo para trabajar, estudiar o navegar</li>
+    </ul>
+
+    <h2>Lo que dicen quienes ya lo probaron:</h2>
+    <p>💬 “Mi PC parece nueva. No puedo creer lo fácil que fue.”</p>
+    <p>💬 “Pensé que iba a ser complicado, pero lo hizo todo por mí. Ahora soy libre.”</p>
+
+    <div class="urgencia" id="urgente">
+      ⚠️ Oferta válida solo por tiempo limitado – ¡Resérvala antes de que finalice el día!
+    </div>
+
+    <a href="https://araval.vercel.app/#contacto" class="cta-button">¡Sí, quiero instalar LMDE 6 y liberar mi PC!</a>
+
+    <p style="margin-top: 20px;">
+      📞 ¿Tienes dudas? <a href="https://wa.me/595974156733">Escríbeme por WhatsApp</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Instalación LMDE 6. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    // Alerta de urgencia tras 30 segundos
+    setTimeout(() => {
+      const urg = document.getElementById('urgente');
+      urg.innerHTML += '<br>🔥 ¡Quedan pocas plazas para hoy!';
+      urg.style.border = '2px solid #e74c3c';
+    }, 30000);
+  </script>
+
+</body>
+</html>
+
