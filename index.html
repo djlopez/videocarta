@@ -1,188 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Instalación LMDE 6 Cinnamon + Soporte</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformá tu Negocio con ARAVAL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Inter', sans-serif;
+      background: #f5f5f5;
       margin: 0;
-      background: #f3f4f6;
-      color: #222;
-      scroll-behavior: smooth;
+      padding: 0;
+      color: #111;
     }
-
     header {
-      background: #2ecc71;
-      color: white;
-      padding: 40px 20px;
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
       text-align: center;
     }
-
     header h1 {
-      font-size: 2.5em;
-      margin: 0;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
-
-    .video-container {
-      text-align: center;
-      padding: 30px 20px;
+    header p {
+      font-size: 1.2rem;
     }
-
-    iframe {
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .benefits, .testimonios, .cta, .video {
+      margin-bottom: 2rem;
+    }
+    .benefits ul {
+      padding-left: 1.5rem;
+    }
+    .benefits li {
+      margin-bottom: 0.5rem;
+    }
+    .testimonios blockquote {
+      border-left: 4px solid #007bff;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      color: #555;
+    }
+    .cta button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta button:hover {
+      background: #0056b3;
+    }
+    .video iframe {
       width: 100%;
-      max-width: 720px;
-      height: 405px;
+      height: 400px;
       border: none;
       border-radius: 8px;
     }
-
-    .content {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    .content h2 {
-      color: #27ae60;
-    }
-
-    .content p {
-      font-size: 1.2em;
-      line-height: 1.6em;
-      margin-bottom: 1.2em;
-    }
-
-    .highlight {
-      background: #dff6e0;
-      border-left: 5px solid #27ae60;
-      padding: 10px 15px;
-      margin-bottom: 20px;
-      border-radius: 4px;
-    }
-
-    .cta-button {
-      display: inline-block;
-      background-color: #27ae60;
-      color: white;
-      padding: 18px 30px;
-      font-size: 1.2em;
-      text-decoration: none;
-      border-radius: 10px;
-      margin-top: 20px;
-      transition: background 0.3s;
-    }
-
-    .cta-button:hover {
-      background-color: #219150;
-    }
-
-    .urgencia {
-      background: #ffefef;
-      border: 1px solid #e74c3c;
-      color: #c0392b;
-      font-weight: bold;
-      padding: 10px;
-      text-align: center;
-      border-radius: 5px;
-      margin: 30px auto;
-      max-width: 600px;
-    }
-
-    .button-container {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .whatsapp-link {
-      display: inline-block;
-      margin-top: 10px;
-      font-size: 1.1em;
-      color: #2ecc71;
-    }
-
     footer {
-      background: #222;
-      color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
-
-    @media screen and (max-width: 600px) {
-      iframe {
-        height: 200px;
-      }
-
-      .cta-button {
-        width: 100%;
-        text-align: center;
-      }
+      font-size: 0.9rem;
+      padding: 1rem;
+      background: #eaeaea;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>🚀 Dale nueva vida a tu PC o NOTEBOOK!!!</h1>
-    <p>Instalación + soporte técnico personalizado incluido</p>
+    <h1>Potenciá tu negocio o equipo con soluciones ARAVAL</h1>
+    <p>Software a medida, Linux optimizado, páginas web y equipos de alta gama</p>
   </header>
 
-  <section class="video-container">
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/1ihWJp7w_4U" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-  </section>
+  <div class="container">
 
-  <section class="content">
-    <div class="highlight">
-      ✅ ¿Tu PC está lenta, se traba o llena de virus? Esto puede cambiar HOY.
-    </div>
+    <section class="video">
+      <h2>Conocé cómo transformamos negocios reales</h2>
+      <iframe src="https://www.youtube.com/embed/zCKz8p9KVcA" allowfullscreen></iframe>
+    </section>
 
-    <h2>Te instalo LMDE 6 Cinnamon de forma personalizada y segura</h2>
-    <p>¿Estás cansado de los actualizaciones pesadas? ¿Te gustaría tener un sistema libre, rápido y sin virus? LMDE 6 Cinnamon es tu solución. Y lo mejor: ¡yo lo hago por vos!</p>
+    <section class="benefits">
+      <h2>¿Qué vas a conseguir?</h2>
+      <ul>
+        <li>✔ Linux instalado y personalizado para tu equipo en menos de 24h</li>
+        <li>✔ Páginas web profesionales adaptadas a tu rubro</li>
+        <li>✔ Software a medida según tu necesidad y presupuesto</li>
+        <li>✔ Equipos informáticos potentes listos para trabajar o jugar</li>
+        <li>✔ Soporte y acompañamiento postventa</li>
+      </ul>
+    </section>
 
-    <p>Con este servicio obtendrás:</p>
-    <ul>
-      <li>🛠️ Instalación personalizada y optimizada</li>
-      <li>🧑‍💻 Soporte técnico post-instalación (1 año sin costo adicional a partir de la instalacion!!!)</li>
-      <li>🎓 Guía de uso paso a paso</li>
-      <li>📦 Todo listo para trabajar, estudiar o navegar</li>
-    </ul>
+    <section class="testimonios">
+      <h2>Clientes felices</h2>
+      <blockquote>
+        "Mi PC ahora inicia en 12 segundos y ya no se traba. ¡Gracias ARAVAL!" – Carlos D.
+      </blockquote>
+      <blockquote>
+        "Mi página web quedó profesional y funcional. Los recomiendo totalmente." – Mariela G.
+      </blockquote>
+    </section>
 
-    <h2>¿Quién más usa Linux?</h2>
-    <p>💼 <strong>Google</strong>: ejecuta sus servidores y gran parte de su infraestructura sobre Linux, incluyendo Android, basado en el kernel de Linux.</p>
-    <p>💼 <strong>Amazon</strong>: su nube AWS se ejecuta mayoritariamente en sistemas basados en Linux.</p>
-    <p>💼 <strong>Facebook (Meta)</strong>: usa Linux para escalar sus operaciones globales con eficiencia y control.</p>
-    <p>💼 <strong>NASA</strong>: confía en Linux para sistemas críticos, control de robots y operaciones espaciales.</p>
-
-    <div class="urgencia" id="urgente">
-      ⚠️ ¡Resérvala antes de que finalice el día!
-    </div>
-
-    <div class="button-container">
-      <a href="https://araval.vercel.app/#contacto" class="cta-button">¡Sí, quiero instalar LMDE 6 y liberar mi PC!</a>
-      <p class="whatsapp-link">📞 ¿Tenés dudas? <a href="https://wa.me/595974156733">Escribime por WhatsApp</a></p>
-    </div>
-  </section>
+    <section class="cta">
+      <h2>¡Tenés una oferta especial por tiempo limitado!</h2>
+      <p>Agendá tu instalación o consulta gratis hoy mismo. Los primeros 10 clientes acceden a un descuento exclusivo 🎁</p>
+      <button onclick="window.location.href='https://wa.me/595974156733?text=Hola%20ARAVAL,%20quiero%20contactar%20con%20un%20asesor'">
+        Solicitar Información
+      </button>
+    </section>
+  </div>
 
   <footer>
-    &copy; 2025 Instalación LMDE 6. Todos los derechos reservados.
+    &copy; 2025 ARAVAL - Desarrollos Digitales a tu Medida
   </footer>
-
-  <script>
-    // Alerta de urgencia tras 30 segundos
-    setTimeout(() => {
-      const urg = document.getElementById('urgente');
-      urg.innerHTML += '<br>🔥 ¡Quedan pocas plazas para hoy!';
-      urg.style.border = '2px solid #e74c3c';
-    }, 30000);
-  </script>
-
 </body>
 </html>
