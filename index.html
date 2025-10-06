@@ -49,7 +49,11 @@
       padding-left: 1rem;
       color: #555;
     }
-    .cta button {
+
+    /* 🎯 Estilo unificado para botones y enlaces tipo botón */
+    .cta button,
+    .cta a.btn {
+      display: inline-block;
       background: #007bff;
       color: white;
       border: none;
@@ -58,10 +62,15 @@
       border-radius: 5px;
       cursor: pointer;
       transition: background 0.3s;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 10px;
     }
-    .cta button:hover {
+    .cta button:hover,
+    .cta a.btn:hover {
       background: #0056b3;
     }
+
     .video iframe {
       width: 100%;
       height: 400px;
@@ -83,7 +92,6 @@
   </header>
 
   <div class="container">
-
     <section class="video">
       <h2>Mirá cómo la tecnología ARAVAL potencia cada desafío</h2>
       <iframe src="https://www.youtube.com/embed/zCKz8p9KVcA" allowfullscreen></iframe>
@@ -100,27 +108,31 @@
       </ul>
     </section>
 
-<section class="testimonios">
-  <h2>Nuestra Promesa</h2>
-  <blockquote>
-    "Cada equipo que entregamos está optimizado para ofrecer potencia y durabilidad reales."
-  </blockquote>
-  <blockquote>
-    "Probamos, configuramos y cuidamos cada detalle para que solo tengas que disfrutarlo."
-  </blockquote>
-  <blockquote>
-    "Instalamos y personalizamos sistemas Linux para que aproveches todo su potencial, sin complicaciones."
-  </blockquote>
-</section>
+    <section class="testimonios">
+      <h2>Nuestra Promesa</h2>
+      <blockquote>
+        "Cada equipo que entregamos está optimizado para ofrecer potencia y durabilidad reales."
+      </blockquote>
+      <blockquote>
+        "Probamos, configuramos y cuidamos cada detalle para que solo tengas que disfrutarlo."
+      </blockquote>
+      <blockquote>
+        "Instalamos y personalizamos sistemas Linux para que aproveches todo su potencial, sin complicaciones."
+      </blockquote>
+    </section>
+
     <section class="cta">
       <h2>¡Tenés una oferta especial por tiempo limitado!</h2>
       <p>Agendá tu instalación o consulta gratis hoy mismo. Los primeros 10 clientes acceden a un descuento exclusivo 🎁</p>
-        <button onclick="window.location.href='https://wa.me/595974156733?text=Hola%20ARAVAL!%20Estoy%20interesado%20en%20sus%20servicios:%20software,%20instalación%20Linux,%20páginas%20web%20o%20equipos.%20¡Contáctenme!'">
-          🚀 Dejanos tu mensaje...
-        </button>
-        <a href="https://araval.vercel.app/#contacto" class="btn">
-          O deja tus datos en el formulario...
-        </a>
+
+      <button onclick="window.location.href='https://wa.me/595974156733?text=Hola%20ARAVAL!%20Estoy%20interesado%20en%20sus%20servicios:%20software,%20instalación%20Linux,%20páginas%20web%20o%20equipos.%20¡Contáctenme!'">
+        🚀 Dejanos tu mensaje...
+      </button>
+
+      <!-- 🔹 Ahora el enlace se ve igual que el botón -->
+      <a href="https://araval.vercel.app/#contacto" class="btn">
+        📩 O deja tus datos en el formulario...
+      </a>
     </section>
   </div>
 
